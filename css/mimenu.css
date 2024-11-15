@@ -1,0 +1,24 @@
+body{
+    background:repeating-radial-gradient(gold,violet);
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    background: repeating-radial-gradient(red,green);
+    padding: 10px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 50px 70px;
+    margin: 0 10px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #ff7e5f, #feb47b);
+    transition: 0.3s;
+    display: inline-block;
+    font-size: 30px;
+    font-family: Arial, sans-serif;
+}
+

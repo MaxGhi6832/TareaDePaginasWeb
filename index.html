@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background:repeating-radial-gradient(violet,pink);
+
+        }
+
+        #FF {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px;
+            width: 300px;
+            text-align: center;
+        }
+
+        #FF input[type="text"],
+        #FF input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+
+        #FF button {
+            width: 100%;
+            padding: 10px;
+            background-color: #0984e3;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+    </style>
+</head>
+<body>
+    <form id="FF" action="mosca.js" method="post">
+        <center>ESCRIBE TUS DATOS</center>
+        <input type="text" name="yesca" id="nn" placeholder="Nombre">
+        <input type="password" name="nano" id="mm" placeholder="Contraseña">
+        <button onclick="aaa()" class="btn" type="button">Enviar</button>
+    </form>
+    <script src="js/max.js">
+        
+    </script>
+</body>
+</html>
